@@ -2,11 +2,6 @@ var webSocketServer = require('ws').Server;
 var wss = new webSocketServer({port: 9090});
 
 
-
-
-var rooms = {}
-/* {RoomID : {userId: Socket1, user2Id: Socket2} } */
-
 var connections = {}
 //  {userId: socket_connection}
 
