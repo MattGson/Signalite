@@ -2,4 +2,5 @@
 A lightweight node.js signaling server for WebRTC
 
 ## Usage
-node server.js
+Run using ```node server.js``` from the terminal
+
